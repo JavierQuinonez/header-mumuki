@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Radio+Canada:wght@600;700&display=swap');
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: rgb(96, 8, 114);
+    height: 50px
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+    
+}
+
+.nav-menu-item {
+    margin: 10px;
+
+}
+
+.boton-menu {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0px 10px;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+
+        justify-content: end;
+    }
+    .boton-menu {
+        display: block;
+    }
+}
